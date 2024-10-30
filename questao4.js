@@ -65,9 +65,9 @@ while (opcao !== '5') {
       exibirAlunos();
       break;
     case '5':
-      console.log('Saindo...');
+      console.log('Saindo');
       break;
     default:
-      console.log('Opção inválida!');
+      console.log('Opção inválida. Selecione uma opção válida');
   }
 }
